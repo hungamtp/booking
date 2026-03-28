@@ -1,0 +1,51 @@
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Spring Boot Backend Output
+/backend/build/
+/backend/out/
+/backend/bin/
+/backend/.gradle/
+
+# Next.js Frontend Output
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+/frontend/.pnp.*
+/frontend/.yarn/cache/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Environment / Sensitive Variables
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Logs
+*.log
+
+# Docker Volumes mapping rules (if any local mappings exist)
+booking-airbnb_es_data/
+booking-airbnb_postgres_data/
+booking-airbnb_redis_data/
+booking-airbnb_kafka_data/
